@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326951803659",
+    "firebase_url": "https://salt-shaker-c6102.firebaseio.com",
+    "project_id": "salt-shaker-c6102",
+    "storage_bucket": "salt-shaker-c6102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326951803659:android:d0e68c807120a6f913e00e",
+        "android_client_info": {
+          "package_name": "com.rom.saltshaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326951803659-1lf6sfb1s3ha49aflpipaisohm4smpit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy1AvOmi1nllCaH99yngJ4g-hegbvwBxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326951803659-1lf6sfb1s3ha49aflpipaisohm4smpit.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
