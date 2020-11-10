@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ECF3FF"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제목"
+            android:textSize="30sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/iv_poster"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_materialText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재료"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_material"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="재료"
+            android:textSize="15sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_how"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="만드는법"
+            android:textSize="20sp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_making1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="만드는법"
+            android:textSize="15sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_making2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="만드는법"
+            android:textSize="15sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_making3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="만드는법"
+            android:textSize="15sp"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_making4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="만드는법"
+            android:textSize="15sp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>
