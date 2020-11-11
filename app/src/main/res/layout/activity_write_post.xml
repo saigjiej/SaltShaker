@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WritePostActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/title_edt"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sign_up2"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="제목"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="#414765" />
+
+    <EditText
+        android:id="@+id/contents_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="23"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:gravity="top"
+        android:hint="그 날의 기억을 떠올려주세요"
+        android:background="#40C6D6F7"/>
+
+    <Button
+        android:id="@+id/check_btn"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="#6E7596"
+
+        android:text="올리기">
+    </Button>
+
+</LinearLayout>

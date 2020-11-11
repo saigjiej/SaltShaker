@@ -31,6 +31,7 @@ public class ChooseActivity extends AppCompatActivity {
                     intent = new Intent(getApplicationContext(), HomeActivity.class);
                     break;
                 case R.id.memory:
+                    intent = new Intent(getApplicationContext(), MainActivity.class);
                     break;
             }
             startActivity(intent);
