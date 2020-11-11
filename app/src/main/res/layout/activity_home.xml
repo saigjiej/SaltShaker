@@ -108,7 +108,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="악세서리 만들기"
+                android:text="액세서리 만들기"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:gravity="center"

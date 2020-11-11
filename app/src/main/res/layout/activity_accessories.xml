@@ -17,7 +17,7 @@
             android:id="@+id/app_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?android:attr/actionBarSize"
-            app:title="악세서리 만들기"
+            app:title="액세서리 만들기"
             app:titleTextColor="#6E7596"
             app:layout_scrollFlags="scroll|enterAlways">
         </androidx.appcompat.widget.Toolbar>
