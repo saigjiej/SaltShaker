@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <!-- Salt Shaker -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="80dp"
+        android:text="Salt Shaker"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="italic"/>
+
+    <!-- 이메일 -->
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="이메일"/>
+
+    <!-- 이메일 입력 -->
+    <EditText
+        android:id="@+id/sign_up_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sign_up2"
+        android:gravity="center"
+        android:hint="이메일을 입력해주세요 🙂"
+        android:inputType="text"
+        android:textSize="15dp" />
+
+
+    <!--비밀번호 -->
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="비밀번호" />
+
+    <!-- 비밀번호 입력 -->
+    <EditText
+        android:id="@+id/sign_up_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/sign_up3"
+        android:gravity="center"
+        android:hint="비밀번호을 입력해주세요 🙂"
+        android:inputType="textPassword"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- Sign In -->
+        <Button
+            android:id="@+id/sign_in_btn"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="40dp"
+            android:background="#739197B5"
+            android:text="로그인"
+            android:textColor="#000000" />
+
+
+        <!-- Sign Up -->
+        <Button
+            android:id="@+id/sign_up_btn"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:background="#739197B5"
+            android:text="회원가입"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+</LinearLayout>

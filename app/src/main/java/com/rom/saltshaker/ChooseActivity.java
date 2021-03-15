@@ -1,12 +1,11 @@
 package com.rom.saltshaker;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ChooseActivity extends AppCompatActivity {
 
@@ -31,9 +30,11 @@ public class ChooseActivity extends AppCompatActivity {
                     intent = new Intent(getApplicationContext(), HomeActivity.class);
                     break;
                 case R.id.memory:
+                    intent = new Intent(getApplicationContext(), MainActivity.class);
                     break;
             }
             startActivity(intent);
+            overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out);
         }
     };
 }

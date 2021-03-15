@@ -11,20 +11,23 @@
         android:id="@+id/choose"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="87dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
         android:text="하나를 선택해 주세요"
         android:textColor="#6E7596"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/smile"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/smile"
-        android:layout_width="25dp"
+        android:layout_width="36dp"
         android:layout_height="0dp"
         android:layout_marginTop="6dp"
-        android:layout_marginEnd="59dp"
-        android:layout_marginRight="59dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
         android:layout_marginBottom="6dp"
         app:layout_constraintBottom_toBottomOf="@+id/choose"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,6 +44,7 @@
         android:text="심심한 하루"
         android:textColor="#6E7596"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/homeActivity"
         app:layout_constraintStart_toStartOf="@+id/homeActivity" />
 
@@ -65,10 +69,11 @@
         android:id="@+id/homeActivityText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="13dp"
         android:text="집콕활동"
         android:textColor="#6E7596"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/homeActivity"
         app:layout_constraintStart_toStartOf="@+id/homeActivity"
         app:layout_constraintTop_toBottomOf="@+id/homeActivity" />
@@ -78,11 +83,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="260dp"
-        android:layout_marginEnd="27dp"
-        android:layout_marginRight="27dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
         android:text="소중한 하루"
         android:textColor="#6E7596"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/memory"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -111,6 +117,7 @@
         android:text="추억"
         android:textColor="#6E7596"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/memory"
         app:layout_constraintStart_toStartOf="@+id/memory" />
